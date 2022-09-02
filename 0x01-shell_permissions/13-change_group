@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown school hello
+pts chown julien:julien school
