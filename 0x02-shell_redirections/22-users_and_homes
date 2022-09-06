@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: -f6 /etc/passwd
+for i in $(cat /etc/passwd | cut -d: -f1); do id $i; done
