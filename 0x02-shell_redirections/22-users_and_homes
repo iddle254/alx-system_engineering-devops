@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in $(cat /etc/passwd | cut -d: -f1); do id $i; done
+cut -d':' -f1,6 /etc/passwd | sort
