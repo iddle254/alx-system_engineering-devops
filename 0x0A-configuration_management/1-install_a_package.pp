@@ -1,6 +1,4 @@
-#This manifest installs puppet-lint
-
-package {'puppet-lint':
-  ensure => '2.5.0',
-  provider => 'gem'
+#This manifest installs flask
+package {'flask':
+  ensure => '2.1.0'
 }
