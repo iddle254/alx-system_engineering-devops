@@ -22,7 +22,7 @@ Host *
 #   ForwardX11 no
 #   ForwardX11Trusted yes
 PasswordAuthentication no
-IdentityFile /root/.ssh/school
+IdentityFile ~/.ssh/school
 #   HostbasedAuthentication no
 #   GSSAPIAuthentication no
 #   GSSAPIDelegateCredentials no
